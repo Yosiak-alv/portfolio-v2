@@ -6,7 +6,7 @@ export const AboutHobbies = () => {
         <div className='px-5 max-w-[1560px] mx-auto pt-20 py-10'>
             {/* title */}
             <div className=" mb-12 text-[32px] font-medium text-white">
-                <span className='text-[#C778DD]'>#</span>
+                <span className='text-customBlue'>#</span>
                 my-hobbies
             </div>
             <div className="flex justify-center gap-y-10 md:justify-between gap-4 items-center flex-wrap">
@@ -22,10 +22,10 @@ export const AboutHobbies = () => {
                         I like chess and someday I would like to be a GrandMaster
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I like any kind of sport like badminton, tennis, basketball, among others.
+                        I like any kind of sport but my favorite is football.
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I’m a fanatic of football
+                        I’m a fanatic of the Batman
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
                         My favorite anime is Dragon Ball

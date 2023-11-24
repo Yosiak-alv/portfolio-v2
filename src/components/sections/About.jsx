@@ -13,9 +13,9 @@ export const About = () => {
                     <div className=" mb-12">
                         <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
                             <div className="">
-                                <span className="text-[#C778DD]">#</span>about-me
+                                <span className="text-customBlue">#</span>about-me
                             </div>
-                            <div className="line w-1/3 h-px bg-[#C778DD]"></div>
+                            <div className="line w-1/3 h-px bg-customBlue"></div>
                         </div>
                     </div>
                     {/* disc */}
@@ -36,7 +36,7 @@ export const About = () => {
                     <div className="mt-7">
                         <NavLink
                             to="/about-me"
-                            className=" duration-150 hover:bg-[#C778DD33] border border-[#C778DD] px-4 py-2 text-white "
+                            className=" duration-150 hover:bg-customBlue-700 border border-customBlue px-4 py-2 text-white "
                         >
                             <button>Read more -{">"}</button>
                         </NavLink>

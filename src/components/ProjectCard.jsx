@@ -20,11 +20,11 @@ export const ProjectCard = ({ img, langs, title, disc,link,live }) => {
                 <p className="py-4 text-[#ABB2BF]">{disc}</p>
                 <div className="flex justify-between items-center">
                     <a href={link} target='_blank' rel='noopener noreferrer'
-                        className="py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33] duration-150">
+                        className="py-2 px-4 text-white border border-customBlue hover:bg-customBlue-700 duration-200">
                         Github ~{'>'}
                     </a>
                     {live && <a href={live} target='_blank' rel='noopener noreferrer'
-                        className="py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33] duration-150">
+                        className="py-2 px-4 text-white border border-customBlue hover:bg-customBlue-700 duration-100">
                         Live ~{'>'}
                     </a>}
 

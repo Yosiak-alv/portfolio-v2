@@ -10,7 +10,7 @@ export const Contact = () => {
         <div className='px-5 max-w-[1560px] min-h-screen mx-auto pt-20 py-10'>
             {/* title */}
             <div className=" text-white font-semibold text-[32px] mt-12">
-                <span className=' text-[#C778DD]'>/</span>contact-me
+                <span className=' text-customBlue'>/</span>contact-me
             </div>
             {/* h2 title */}
             <div className=" text-white mt-[14px] mb-[46px]">What I am looking for?</div>
@@ -53,7 +53,7 @@ export const Contact = () => {
             {/* all media */}
             <div className="mt-6 mb-5x">  
                 {/* title */}
-                <div className="text-[32px] font-medium text-white"><span className='text-[#C778DD]'>#</span>all-media</div>
+                <div className="text-[32px] font-medium text-white"><span className='text-customBlue'>#</span>all-media</div>
                 {/* media */}
                 <div className="flex gap-6 flex-wrap">
                     <a href="https://github.com/Yosiak-alv" target='_blank' rel='noopener noreferrer'>

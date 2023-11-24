@@ -30,22 +30,22 @@ export const Projects = () => {
     ];
     return (
         <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
-            <div data-aos="fade-down-right" className=" flex justify-between items-center">
+            <div  className=" flex justify-between items-center">
 
                 <div className="font-medium w-2/3 text-[32px] text-white flex items-center gap-2">
                     <div>
-                        <span className="text-[#C778DD]">#</span>projects
+                        <span className="text-customBlue">#</span>projects
                     </div>
-                    <div className="line w-2/3 h-[1px] bg-[#C778DD]"></div>
+                    <div className="line w-2/3 h-[1px] bg-customBlue"></div>
 
                 </div>
-                <div className="text-white font-medium">
+                <div className="text-white font-medium hover:underline">
                     <NavLink to="/projects">
                         <span>View all ~~~&gt;</span>
                     </NavLink>
                 </div>
             </div>
-            <div data-aos="fade-up" className="flex flex-wrap justify-between gap-4 my-12">
+            <div className="flex flex-wrap justify-between gap-4 my-12">
                 {
                     projects.map(({img,langs,title,disc,link}) => {
                         return(

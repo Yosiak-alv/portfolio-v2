@@ -46,7 +46,7 @@ export const SmallProjects = () => {
                 {/* title */}
                 <div className="">
                     <div className=" text-white font-medium mt-[68px] mb-[48px] text-[32px]">
-                        <span className=" text-[#C778DD]">#</span>
+                        <span className=" text-customBlue">#</span>
                         <span>small-projects</span>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ export const SmallProjects = () => {
                                         <h2 className=' text-white font-medium text-2xl'>{title}</h2>
                                         <p className=' text-[#ABB2BF] py-4'>{body}</p>
                                         {/* we are only coders so maybe no one have figma projects */}
-                                        <button className=' border border-[#C778DD] px-4 py-2 text-white duration-150 hover:bg-[#C778DD33]'>
+                                        <button className=' border border-customBlue px-4 py-2 text-white duration-150 hover:bg-customBlue-700'>
                                             <a href={link}  target='_blank' rel='noopener noreferrer'>Github {'<'}~{'>'}</a>
                                         </button>
                                     </div>

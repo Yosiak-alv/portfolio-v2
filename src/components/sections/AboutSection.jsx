@@ -8,7 +8,7 @@ export const AboutSection = () => {
                 <div className=" mb-12">
                     <div className=" text-white w-2/3 font-semibold text-[32px]">
                         <div className="">
-                            <span className="text-[#C778DD]">/</span>
+                            <span className="text-customBlue">/</span>
                             about-me
                         </div>
                         <div className=" text-white text-base font-normal mt-[14px]">

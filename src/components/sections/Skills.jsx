@@ -40,19 +40,19 @@ export const Skills = () => {
             <div className="mb-10">
                 <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
                     <div className="">
-                    <span className="text-[#C778DD]">#</span>skills
+                    <span className="text-customBlue">#</span>skills
                     </div>
-                    <div className="line w-1/3 h-px bg-[#C778DD]"></div>
+                    <div className="line w-1/3 h-px bg-customBlue"></div>
                 </div>
             </div>
             {/* bottom */}
             <div className=" flex flex-wrap gap-10 justify-between items-center text-white">
                 {/* left */}
-                <div className="mx-auto">
+                <div  className="mx-auto">
                     <img className=" w-full mx-auto" src={shapes} alt="" />
                 </div>
                 {/* right & mapping */}
-                <div data-aos="fade-left" className=" mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4">
+                <div className=" mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4">
                     {skills.map(({ title, languages }) => {
                         return (
                             <div key={title} className="w-[90%] sm:w-[45%] lg:w-[30%] border border-[#ABB2BF]">

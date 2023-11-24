@@ -49,14 +49,14 @@ export const CompleteProjects = () => {
         <div className=''>
             <div className=''> 
                 <div className='text-white font-bold text-[32px]'>
-                    <span className='text-[#C778DD]'>/</span>
+                    <span className='text-customBlue'>/</span>
                     <span>projects</span>
                 </div>
                 <div className='text-white mt-[14px] '>List of my projects</div>
             </div>
             <div className=''>
                 <div className='text-white font-bold mt-[68px] mb-[48px] text-[32px]'>
-                    <span className='text-[#C778DD]'>#</span>
+                    <span className='text-customBlue'>#</span>
                     <span>completed projects</span>
                 </div>
             </div>
