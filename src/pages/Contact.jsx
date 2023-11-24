@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 
 export const Contact = () => {
     return (
-        <div className='px-5 max-w-[1560px] min-h-screen mx-auto pt-20 py-10'>
+        <div data-aos="fade-down" className='px-5 max-w-[1560px] min-h-screen mx-auto pt-20 py-10'>
             {/* title */}
             <div className=" text-white font-semibold text-[32px] mt-12">
                 <span className=' text-customBlue'>/</span>contact-me

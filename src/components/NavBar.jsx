@@ -2,12 +2,15 @@ import React,{useEffect, useState} from "react";
 import Logo from "../assets/Logo.png";
 import close from "../assets/close.png";
 import { NavLink } from "react-router-dom";
+import { FaGithub } from "react-icons/fa"
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";;
 
 export const NavBar =() => {
     const [toggle, setToggle] = useState(false);
 
-    return (
-        <div className="fixed top-0 left-0 right-0 bg-[#282C33]">
+    return ( /* fixed w-full z-10 top-0 left-0 backdrop-blur-lg p-1 bg-[#282C33]*/
+        <div className="fixed w-full z-10 top-0 left-0 bg-[#282C33] p-1 ">
             <div className=" px-5 max-w-[1560px] mx-auto flex items-center justify-between pt-6 my-2">
                 <div className="left flex gap-2 items-center font-bold text-white text-base">
                     {/* logo */}
@@ -15,6 +18,11 @@ export const NavBar =() => {
                     <img src={Logo} alt="" />
                     </div>
                     Josias
+                    <div className="flex space-x-1 flex-wrap">
+                        <a href="https://github.com/Yosiak-alv" target='_blank' rel='noopener noreferrer'><FaGithub color="#ABB2BF"/></a>
+                        <a href="https://www.linkedin.com/in/josías-alvarenga-314920238" target='_blank' rel='noopener noreferrer'><FaLinkedin color="#ABB2BF"/></a>
+                        <a href="https://www.instagram.com/josias_rom/" target='_blank' rel='noopener noreferrer'><FaInstagram color="#ABB2BF"/></a>
+                    </div>
                 </div>
                 <div className="right flex items-center">
                     <div

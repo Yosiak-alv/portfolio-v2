@@ -26,6 +26,12 @@ let small_projects = [
         link:'https://github.com/Yosiak-alv/Python_crud_mysql'
     },
     {
+        languages: ["REACT","VITE","TAILWINDCSS","AOS"],
+        title: "portfolio-v2",
+        body: 'A portfolio of my own v2.',
+        link:'https://github.com/Yosiak-alv/portfolio-v2'
+    },
+    {
         languages: ["PYTHON", "DJANGO"],
         title: "crud_django",
         body: 'A Simple Crud in Django.',
@@ -42,7 +48,7 @@ let small_projects = [
 export const SmallProjects = () => {
     return(
         <div>
-            <div className='pt-[80px] px-5 max-w-[1560px] mx-auto'>
+            <div data-aos="fade-up" className='pt-[80px] px-5 max-w-[1560px] mx-auto'>
                 {/* title */}
                 <div className="">
                     <div className=" text-white font-medium mt-[68px] mb-[48px] text-[32px]">

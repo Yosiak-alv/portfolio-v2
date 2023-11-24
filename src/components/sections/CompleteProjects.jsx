@@ -46,7 +46,7 @@ const projects = [
 
 export const CompleteProjects = () => {
     return (
-        <div className=''>
+        <div data-aos="fade-down" className=''>
             <div className=''> 
                 <div className='text-white font-bold text-[32px]'>
                     <span className='text-customBlue'>/</span>

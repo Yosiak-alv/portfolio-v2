@@ -18,11 +18,11 @@ export default function App(){
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
-  /* useEffect(() =>{
+  useEffect(() =>{
     Aos.init({
       duration:1000
     });
-  },[]); */
+  },[]);
   return (
     <div className='bg-[#282C33]'>
       <NavBar />

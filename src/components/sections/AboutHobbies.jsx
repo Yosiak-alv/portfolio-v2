@@ -3,7 +3,7 @@ import shapes from '../../assets/shapes.png';
 
 export const AboutHobbies = () => {
     return (
-        <div className='px-5 max-w-[1560px] mx-auto pt-20 py-10'>
+        <div data-aos="fade-right"  className='px-5 max-w-[1560px] mx-auto pt-20 py-10'>
             {/* title */}
             <div className=" mb-12 text-[32px] font-medium text-white">
                 <span className='text-customBlue'>#</span>

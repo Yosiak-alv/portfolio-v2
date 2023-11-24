@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 export const About = () => {
 
     return (
-        <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+        <div data-aos="fade-down" className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
             {/* bottom */}
             <div className=" flex-wrap flex items-center justify-between">
                 {/* left */}

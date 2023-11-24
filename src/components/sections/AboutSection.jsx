@@ -6,7 +6,7 @@ export const AboutSection = () => {
             <div className=''>
                 {/* title */}
                 <div className=" mb-12">
-                    <div className=" text-white w-2/3 font-semibold text-[32px]">
+                    <div data-aos="fade-right" className=" text-white w-2/3 font-semibold text-[32px]">
                         <div className="">
                             <span className="text-customBlue">/</span>
                             about-me
@@ -18,7 +18,7 @@ export const AboutSection = () => {
                 </div>
                 <div className=" flex-wrap flex items-center justify-between">
                     {/* left */}
-                    <div className="md:w-[48%] w-full">
+                    <div data-aos="fade-right" className="md:w-[48%] w-full">
                         {/* disc */}
                         <p className="text-[#ABB2BF] text-justify">
                             Hello, i’m Josias!
@@ -35,7 +35,7 @@ export const AboutSection = () => {
                         </p>
                     </div>
                     {/* right */}
-                    <div className=" mx-auto">
+                    <div data-aos="fade-left" className=" mx-auto">
                         <img className="mx-auto" src={man} alt="" />
                     </div>
                 </div>

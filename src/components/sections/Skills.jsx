@@ -37,7 +37,7 @@ export const Skills = () => {
     return (
         <div className="px-5 max-w-[1560px] mx-auto mt-20 py-8">
             {/* top */}
-            <div className="mb-10">
+            <div data-aos="fade-right" className="mb-10">
                 <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
                     <div className="">
                     <span className="text-customBlue">#</span>skills
@@ -52,7 +52,7 @@ export const Skills = () => {
                     <img className=" w-full mx-auto" src={shapes} alt="" />
                 </div>
                 {/* right & mapping */}
-                <div className=" mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4">
+                <div data-aos="fade-left" className=" mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4">
                     {skills.map(({ title, languages }) => {
                         return (
                             <div key={title} className="w-[90%] sm:w-[45%] lg:w-[30%] border border-[#ABB2BF]">

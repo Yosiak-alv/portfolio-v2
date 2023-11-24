@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 export const Contact = () => {
 
     return(
-        <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+        <div data-aos="fade-up-left" className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
             {/* top */}
             <div className="">
                 {/* header */}

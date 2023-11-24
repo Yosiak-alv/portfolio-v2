@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import autorepairlinker from '../../assets/autorepairlinker_project.png';
 import warehousewise from '../../assets/warehousewise_project.png';
 import sportcity from '../../assets/sportcity_project.png';
+
 export const Projects = () => {
     const projects = [
         {
@@ -29,7 +30,8 @@ export const Projects = () => {
         },
     ];
     return (
-        <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+        <div data-aos="fade-up" className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+
             <div  className=" flex justify-between items-center">
 
                 <div className="font-medium w-2/3 text-[32px] text-white flex items-center gap-2">
@@ -45,6 +47,8 @@ export const Projects = () => {
                     </NavLink>
                 </div>
             </div>
+
+
             <div className="flex flex-wrap justify-between gap-4 my-12">
                 {
                     projects.map(({img,langs,title,disc,link}) => {
@@ -54,6 +58,8 @@ export const Projects = () => {
                     })
                 }
             </div>
+
+           
         </div>
     );
 }
