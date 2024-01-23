@@ -14,9 +14,9 @@ export const Hero = () => {
                     starting my career as a Backend Developer, with the desire to apply my acquired knowledge 
                     and, over time, evolve towards a Full Stack Developer profile.
                 </p>
-                <button className="text-white font-medium py-2 px-4 border duration-200 border-customBlue hover:bg-customBlue-700">
+                <a href="https://drive.google.com/file/d/1TVHBTIll2gQcdZxIkPZqyjmOlYlWnoZB/view?usp=sharing" target='_blank' rel='noopener noreferrer' className="text-white font-medium py-2 px-4 border duration-200 border-customBlue hover:bg-customBlue-700">
                     View Résumé
-                </button>
+                </a>
             </div>
             <div className='mx-auto'>
                 <div className=''>
