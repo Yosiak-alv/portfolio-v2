@@ -5,7 +5,15 @@ import happydents from '../../assets/happydents_project.png';
 import warehousewise from '../../assets/warehousewise_project.png';
 import sporcity from '../../assets/sportcity_project.png';
 import sportcityWeb from '../../assets/sportcity_web_project.png';
+import autopilot from '../../assets/autopilot_project.png';
 const projects = [
+    {
+        img:autopilot,
+        langs:["PHP","Laravel","Vue.js","Inertia.js","Tailwindcss"],
+        title:"AutoPilot",
+        disc:"AutoPilot, a dynamic web application, sets the standard for automotive repair history management. Designed as a progressive web application (PWA), it adapts perfectly to any device, ensuring accessibility and convenience. This system is focused on each car belonging to different centers of the Fe y Alegría foundation, what repairs were made, what documents it has among many others.",
+        link:'https://github.com/Yosiak-alv/AutoPilot'
+    },
     {
         img:autorepairlinker,
         langs:["PHP","Laravel","React Native","NativeWind","React Query"],

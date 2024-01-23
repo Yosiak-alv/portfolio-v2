@@ -4,15 +4,15 @@ import { NavLink } from "react-router-dom";
 import autorepairlinker from '../../assets/autorepairlinker_project.png';
 import warehousewise from '../../assets/warehousewise_project.png';
 import sportcity from '../../assets/sportcity_project.png';
-
+import autopilot from '../../assets/autopilot_project.png';
 export const Projects = () => {
     const projects = [
         {
-            img:autorepairlinker,
-            langs:["PHP","Laravel","React Native","NativeWind","React Query"],
-            title:"AutoRepairLinker",
-            disc:"AutoRepair Linker is a mobile React Native application in which myself and other four talented developers are working on at the moment. Designed to streamline the management of automobile insurance claims, it offers key solutions for insurers, repair shops, and parts suppliers.",
-            link:'https://github.com/karivas-dev/AutoRepairLinker'
+            img:autopilot,
+            langs:["PHP","Laravel","Vue.js","Inertia.js","Tailwindcss"],
+            title:"AutoPilot",
+            disc:"AutoPilot, a dynamic web application, sets the standard for automotive repair history management. Designed as a progressive web application (PWA), it adapts perfectly to any device, ensuring accessibility and convenience. This system is focused on each car belonging to different centers of the Fe y Alegría foundation, what repairs were made, what documents it has among many others.",
+            link:'https://github.com/Yosiak-alv/AutoPilot'
         },
         {
             img:sportcity,
@@ -28,6 +28,7 @@ export const Projects = () => {
             disc:"WarehouseWise is focused on facilitating the management of inventory data for a company. Through its graphical interface and user access, you can create and modify the existence of products including details such as price, type, quantity, among others.",
             link:'https://github.com/karivas-dev/WarehouseWise'
         },
+        
     ];
     return (
         <div data-aos="fade-up" className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
