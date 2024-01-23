@@ -44,7 +44,7 @@ export const About = () => {
                 </div>
                 {/* right */}
                 <div className=" mx-auto">
-                    <img className="mx-auto" src={man} alt="" />
+                    <img className="mx-auto" src={man} alt="" /> 
                 </div>
             </div>
         </div>

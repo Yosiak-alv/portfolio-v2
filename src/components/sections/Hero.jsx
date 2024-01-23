@@ -15,7 +15,7 @@ export const Hero = () => {
                     and, over time, evolve towards a Full Stack Developer profile.
                 </p>
                 <button className="text-white font-medium py-2 px-4 border duration-200 border-customBlue hover:bg-customBlue-700">
-                    View Resume!!
+                    View Résumé
                 </button>
             </div>
             <div className='mx-auto'>
