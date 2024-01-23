@@ -31,22 +31,22 @@ export const NavBar =() => {
                         : `right-0 top-0 bottom-0`
                         } bg-[#282C33] md:static`}
                     >
-                        <NavLink to="/" onClick={() => setToggle(false)}>
+                        <NavLink to="/portfolio-v2/" onClick={() => setToggle(false)}>
                             <li className="text-[#ABB2BF] text-[32px] md:text-base my-4 md:my-auto list-none mx-4">
                                 <span className="text-customBlue font-medium">#</span>home
                             </li>
                         </NavLink>
-                        <NavLink to="/projects" onClick={() => setToggle(false)}>
+                        <NavLink to="/portfolio-v2/projects" onClick={() => setToggle(false)}>
                             <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
                                 <span className="text-customBlue font-medium">#</span>projects
                             </li>
                         </NavLink>
-                        <NavLink to="/about-me" onClick={() => setToggle(false)}>
+                        <NavLink to="/portfolio-v2/about-me" onClick={() => setToggle(false)}>
                             <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
                                 <span className="text-customBlue font-medium">#</span>about-me
                             </li>
                         </NavLink>
-                        <NavLink to="/contact-me" onClick={() => setToggle(false)}>
+                        <NavLink to="/portfolio-v2/contact-me" onClick={() => setToggle(false)}>
                             <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
                                 <span className="text-customBlue font-medium">#</span>contact-me
                             </li>

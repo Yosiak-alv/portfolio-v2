@@ -27,10 +27,10 @@ export default function App(){
     <div className='bg-[#282C33]'>
       <NavBar />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/projects' element={<Projects/>}/>
-        <Route path='/about-me' element={<About/>}/>
-        <Route path='/contact-me' element={<Contact/>}/>
+        <Route path='/portfolio-v2/' element={<Home/>}/>
+        <Route path='/portfolio-v2/projects' element={<Projects/>}/>
+        <Route path='/portfolio-v2/about-me' element={<About/>}/>
+        <Route path='/portfolio-v2/contact-me' element={<Contact/>}/>
       </Routes>
       <Footer/>
     </div>
