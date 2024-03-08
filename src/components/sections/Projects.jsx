@@ -43,7 +43,7 @@ export const Projects = () => {
 
                 </div>
                 <div className="text-white font-medium hover:underline">
-                    <NavLink to="/projects">
+                    <NavLink to="/portfolio-v2/projects">
                         <span>View all ~~~&gt;</span>
                     </NavLink>
                 </div>

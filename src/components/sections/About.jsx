@@ -35,7 +35,7 @@ export const About = () => {
                     {/* button */}
                     <div className="mt-7">
                         <NavLink
-                            to="/about-me"
+                            to="/portfolio-v2/about-me"
                             className=" duration-150 hover:bg-customBlue-700 border border-customBlue px-4 py-2 text-white "
                         >
                             <button>Read more -{">"}</button>
